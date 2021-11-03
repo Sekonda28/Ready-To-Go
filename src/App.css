@@ -1,0 +1,139 @@
+/* Other rules */
+
+/* COMMON STYLES */
+* {
+    box-sizing: border-box;
+}
+
+.App {
+    max-width: 1920px;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    height: 200px;
+    padding: 50px 100px;
+    width: auto;
+    align-items: center
+}
+
+header .fas {
+
+    color: #5C48D3;
+    padding-right: 50px
+}
+
+/* CONTENT */
+.content {
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto
+}
+
+button {
+    width: 120px;
+    height: 70px;
+    font-size: 32px;
+    padding: 10px 20px;
+    margin: 20px;
+    font-family: inherit;
+    border-radius: 10%
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    margin-right: 200px
+}
+
+.results {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Results boxes */
+.selected {
+    color: white;
+    background-color: #5C48D3
+}
+
+.unselected {
+    background-color: white;
+    color: #5C48D3;
+    border: 1px #5C48D3 solid
+}
+
+.ready-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    width: 250px;
+    height: 150px;
+    background-color: #46AC4A;
+    color: white;
+    border-radius: 10%;
+    font-size: 28px
+}
+
+.no-way-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 150px;
+    background-color: #D34848;
+    color: white;
+    border-radius: 10%;
+    font-size: 28px
+}
+
+
+
+/* FOOTER */
+
+
+footer {
+    height: 63px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+
+footer span {
+    font-weight: 700;
+}
+
+/* MEDIA QUERIES */
+
+@media(max-width: 760px) {
+    .content {
+        margin: 10px auto;
+        width: 100vw;
+        flex-direction: column
+    }
+
+    .buttons {
+        margin-right: 0px;
+        padding-bottom: 10px
+    }
+
+    footer {
+
+        margin-top: 20px;
+    }
+
+
+}
