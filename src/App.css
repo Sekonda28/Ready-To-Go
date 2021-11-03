@@ -62,10 +62,23 @@ button {
     justify-content: center;
 }
 
-/* Results boxes */
+.master-switch {
+    width: 280px;
+    height: 100px;
+    font-size: 32px;
+    padding: 10px 20px;
+    margin: 20px;
+    font-family: inherit;
+    border: none;
+    border-radius: 10%;
+    color: white;
+    background-color: #D34848;
+}
+
 .selected {
     color: white;
-    background-color: #5C48D3
+    background-color: #5C48D3;
+    border: none
 }
 
 .unselected {
@@ -73,6 +86,9 @@ button {
     color: #5C48D3;
     border: 1px #5C48D3 solid
 }
+
+/* Results boxes */
+
 
 .ready-box {
     display: flex;
@@ -99,7 +115,10 @@ button {
     font-size: 28px
 }
 
-
+button:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
 
 /* FOOTER */
 
