@@ -2,7 +2,6 @@ import Switch from "./Switch";
 import Result from "./Result";
 import Masterswitch from "./Masterswitch";
 
-
 const Content = (props) => {
   return (
     <section className="content">
